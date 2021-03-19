@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(https://images.unsplash.com/photo-1547700055-b61cacebece9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: "Piazzolla", serif;
+}
+
+header {
+  margin: 0 auto;
+}
+
+header p {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 45%;
+}
+
+.searchbox-form {
+  display: grid;
+  width: 25%;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.searchbox-input {
+  background-color: transparent;
+  display: block;
+  border: none;
+  margin: 20px auto 11px auto;
+  width: 20%;
+  color: #000;
+  text-transform: lowercase;
+  border: none;
+  line-height: 30px;
+  outline: none;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+::placeholder {
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  align-content: center;
+  text-decoration: none;
+}
+
+.nav-link {
+  margin: 0 auto;
+}
+
+.nav-ul {
+  gap: 1px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+
+.nav-ul a {
+  color: #000;
+  width: 80px;
+  font-weight: 700;
+  font-size: 0.9em;
+  text-decoration: none;
+  background-color: #fbf8f84a;
+  padding: 4px 4px;
+  transition: all 0.5s ease;
+}
+
+nav ul a:hover {
+  background-color: #fff;
+}
+
+.home_info {
+  color: #000;
+  margin: 25px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 70%;
+  font-family: "Lato", sans-serif;
+  display: grid;
+  align-items: end;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%),
+    0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%),
+    0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+  transition: all 0.5s ease;
+}
+
+.home_info img {
+  width: 70%;
+  margin: 15px 0 10px 0;
+}
+
+.home_info h2 {
+  margin: 10px 0 5px 0;
+}
+.home_info span {
+  margin: 5px 0;
+}
+
+.card_info {
+  color: #000;
+  justify-items: center;
+  margin: 25px auto;
+  backdrop-filter: blur(9px);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  font-family: "Lato", sans-serif;
+  display: grid;
+  align-items: end;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  transition: all 0.5s ease;
+}
+
+.card_info div {
+  margin-bottom: 8px;
+}
+
+.card_info:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.movie_title,
+.person_title,
+.planet_title,
+.spec_title,
+.starship_title,
+.vehicle_title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  background-color: #fff;
+  width: 100%;
+  padding: 7px;
+}
+
+.movie_release {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #202020;
+}
+
+.movie_producer,
+.movie_director {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.movie_plot {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000000;
+  padding: 15px 25px;
+}
+
+.movies-details,
+.people-details,
+.planets-details,
+.species-details,
+.starships-details,
+.vehicles-details {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 10px 0;
+}
+
+.movies-details a,
+.people-details a,
+.planets-details a,
+.species-details a,
+.starships-details a,
+.vehicles-details a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #ffffffaf;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+main {
+  min-height: 150vh;
+}
+
+footer {
+  background: #ffffff;
+  color: #000;
+  padding: 5px 0;
+}
