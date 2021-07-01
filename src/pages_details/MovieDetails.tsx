@@ -1,14 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-// type myProps = {
-//   title: string;
-//   plot: string;
-//   producers: string;
-// };
 
 const MovieDetails = () => {
-  //   console.log(props);
   return (
     <div className="movies-details">
       <div>
