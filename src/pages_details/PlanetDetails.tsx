@@ -35,24 +35,3 @@ const PlanetDetails = ({ props, title }: PlanetProps) => {
 };
 
 export default PlanetDetails;
-
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// type PlanetProps = {
-//   title?: string;
-// };
-
-// const PlanetDetails = ({ title }: PlanetProps) => {
-//   console.log(title);
-//   return (
-//     <div className="planets-details">
-//       <div>
-//         <Link to="/planets">Back</Link>
-//       </div>
-//       DETAILS {title}
-//     </div>
-//   );
-// };
-
-// export default PlanetDetails;
