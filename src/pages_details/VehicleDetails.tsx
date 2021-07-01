@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const VehicleDetails = () => {
-  console.log();
   return (
     <div className="vehicles-details">
       <div>
